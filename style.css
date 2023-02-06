@@ -2,6 +2,10 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .container {
   display: flex;
   align-items: left;
@@ -15,14 +19,9 @@ img {
 
 .image {
 	justify-content: center;
-  	flex-basis: 40%
+  	flex-basis: 48%
 }
 
-.text {
-  font-size: 20px;
-  justify-content: center;
-  padding-left: 125px;
-}
 
 
 
