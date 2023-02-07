@@ -1,20 +1,31 @@
+<!--Makes the html document-->
 <!DOCTYPE html>
 <html> 
 
+<!--Creates a title for the webpage-->
 <head>
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
     <title>hw-03</title>
 </head>
+
+<!--Creates the body for the webpage-->
+<body>
+
+    <!--Creates the heading for the entire webpage-->
     <div>
         <h1> hw-03: Interactive Webpage, and Marks & Channels </h1>
     </div>
 
+    <!--Creates a class containing both the image and its descriptions-->
     <div class = "container">
+        <!--Creates an image class for the 1st image-->
         <div class = "image">
             <img src="img/vis1.png">
         </div>
+        <!--The section for all descriptions for the 1st image-->
         <div class = "image">
+            <!--Under this heading, all of the marks are listed and described for the 1st image-->
             <h3>Marks</h3>
                 <ul>
                     <!--Lists the row information-->
@@ -22,8 +33,7 @@
                     <ul>
                         <li>The number of electoral votes bar</li>
                         <li>The map of the United States of America</li>  
-                        <li>The 5 electoral votes for Nebraska</li> 
-                        <li>The 4 electoral votes for Maine</li> 
+                        <li>The 5 electoral votes for Nebraska and the 4 electoral votes for Maine</li> 
                     </ul>
                     <li>Point:</li>
                     <ul>
@@ -31,22 +41,24 @@
                     </ul>
                 </ul>
 
+            <!--Under this heading, all of the channels are listed and described for the 1st image-->
             <h3>Channels</h3>
                 <ul>
-                    <!--Lists the row information-->
-                    <li>Color:</li>
+                    <!--Lists the color information. Bullet points are used for visual simplicity-->
+                    <li>Color - Hue:</li>
                     <ul>
                         <li>This is a great channel to distinguish the states. The color red represents the Republican party while blue represents the Democratic party.</li> 
-                        <li>This is a good mapping because these two colors both pop out and you can easily tell the difference at a quick glance between the two. Also, the color association of red and blue is widely known across the country so it is easy to correlate the color with the party without a map. This is used in the map, the electoral vote line, and the electoral votes for Nebraska and Maine.</li>
+                        <li>This is a good mapping because these two colors both pop out and you can easily tell the difference between the two. Also, the color association of red and blue is widely known across the country so it is easy to correlate the color with the party without a map. This is used in the map, the electoral vote line, and the electoral votes for Nebraska and Maine.</li>
                     </ul>
 
-                    <!--Lists the column information-->
+                    <!--Lists the shape information. Bullet points are used for visual simplicity-->
                     <li>Shape:</li>
                     <ul>
                         <li>The different shapes in this map respresent the states of the United States. </li>
                         <li>This is good mapping because the map of the United States is known to Americans all over the country. People are easily able to see which states voted for which political party.</li>
                     </ul>
 
+                    <!--Lists the position information. Bullet points are used for visual simplicity-->
                     <li>Position (Horizontal):</li>
                     <ul>
                         <li>The horizontal line at the top of this chart represents the number of electoral votes each candidate has gotten.</li>
@@ -54,23 +66,28 @@
                     </ul>
                 </ul>
 
-                <h3>Color Map</h3>
+            <!--Under this heading, all of the colormaps are listed and described for the 1st image-->
+            <h3>Color Map</h3>
                 <ul>
-                    <!--Lists the row information-->
+                    <!--Lists the colormap information. Bullet points are used.-->
                     <li>Categorical:</li> 
                     <ul>
                         <li>The two colors (red and blue) are quite distinct. Red is used to represent the Republican party and blue is used to represent the Democratic party.</li>
-                        <li>This is good mapping because it is easy for viewers to see which parts on the chart correlate to which political</li>
+                        <li>This is good mapping because it is easy for viewers to see which parts on the chart correlate to which political party.</li>
                     </ul>
                 </ul>
         </div>
     </div>
 
+    <!--Creates a class containing both the image and its descriptions-->
     <div class = "container">
+        <!--Creates an image class for the 2nd image-->
         <div class = "image">
             <img src="img/vis2.png">
         </div>
+        <!--The section for all descriptions for the 1st image-->
         <div class = "image">
+            <!--Under this heading, all of the marks are listed and described for the 2nd image-->
             <h3>Marks</h3>
                 <ul>
                     <!--Lists the row information-->
@@ -80,26 +97,32 @@
                     </ul>
                     <li>Lines:</li>
                     <ul>
-                        <li>Denote the type of hit that the batter played. There are lines denoting fly balls, line drives, pop-ups and ground-balls </li>
+                        <li>Denote the type of hit that the batter executed. There are lines denoting fly balls, line drives, pop-ups and ground-balls </li>
+                    </ul>
+                    <li>Area:</li>
+                    <ul>
+                        <li>The bar on the top-left indicating the below average, average, and above average LWTS or scoring value.</li>
                     </ul>
                 </ul>
 
+            <!--Under this heading, all of the channels are listed and described for the 2nd image-->
             <h3>Channels</h3>
                 <ul>
-                    <!--Lists the row information-->
-                    <li>Horizontal and vertical position:</li>
+                    <!--Lists the position information for both vertical and horizontal.-->
+                    <li>Position (Horizontal and Vertical):</li>
                     <ul>
                         <li>The positioning of each point on the graph gives the viewer an idea of the velocity and launch angles of each batted ball. </li> 
                         <li>This channel represents the velocity and launch angles and it is a great choice to display how to visualise the information as it gives the user a good idea of which balls had a low velocity and a low launch angle, and vice versa. </li>
                     </ul>
 
-                    <!--Lists the column information-->
+                    <!--Lists the color hue information in bullet format.-->
                     <li>Color - Hue:</li>
                     <ul>
-                        <li>The scoring value of each batted ball is depicted by color on this visualization. Those that are below average have a purple-ish collar, those at the average have a white color, and those above the average have an orange color.  </li>
+                        <li>The scoring value of each batted ball is depicted by color on this visualization. Those that are below average have a purple-ish collar, those at the average have a white color, and those above the average have an orange color. </li>
                         <li> I think this is a good representation of the scoring value attribute, as the user is clearly able to visualise what angles and velocities generate the most points, which ones generate average points, and which ones generate below average points.</li>
                     </ul>
 
+                    <!--Lists the color luminance information in bullet format.-->
                     <li>Color - Luminance:</li>
                     <ul>
                         <li>To represent how far away from the average each point is, the author of this visual decided to incorporate a luminance element. The further away from the average the point was, the darker the point got.</li>
@@ -107,58 +130,74 @@
                     </ul>
                 </ul>
 
-                <h3>Color Map</h3>
+            <!--Under this heading, all of the colormaps are listed and described for the 2nd image-->
+            <h3>Color Map</h3>
                 <ul>
-                    <!--Lists the row information-->
+                    <!--Lists the colormap information in bullet format-->
                     <li>Divergent:</li> 
                     <ul>
-                        <li>The purple, white, and blue color maps represent the scoring value of each batted ball. 
+                        <li>The purple, white, and orange color maps represent the scoring value of each batted ball. 
                         </li>
-                        <li>The divergent color map used by this visualization is a good choice as it uses two colors (blue and purple) to indicate the extremes of a range, and neutral white color in the middle.  </li>
+                        <li>The divergent color map used by this visualization is a good choice as it uses two colors (purple and orange) to indicate the extremes of a range, and neutral white color in the middle.  </li>
                     </ul>
                 </ul>
         </div>
     </div>
 
+    <!--Creates a class containing both our image and its descriptions-->
     <div class = "container">
+        <!--Creates an image class for the 3rd image (our visualization)-->
         <div class = "image">
             <img src="img/vis3.png">
         </div>
+        <!--The section for all descriptions for the 3rd image-->
         <div class = "image">
+            <!--Under this heading, all of the marks are listed and described for the 3rd image-->
             <h3>Marks</h3>
                 <ul>
-                    <!--Lists the row information-->
-                    <li>Point:</li>
+                    <!--Lists the area information in bullet format-->
+                    <li>Area:</li>
                     <ul>
-                        <li>Points on graph representing sleep efficiency (measure of the proportion of time spent in bed that is actually spent asleep)and age of test subjects in a sleeping patterns study</li>
+                        <li>Map of the world that represents the different countries</li>
+                        <li>The bar for the population in 2020 gradient</li>
                     </ul>
                 </ul>
 
+             <!--Under this heading, all of the channels are listed and described for the 3rd image-->
             <h3>Channels</h3>
                 <ul>
-                    <!--Lists the row information-->
-                    <li>Horizontal and vertical position:</li>
+                    <!--Lists the position information in bullet format-->
+                    <li>Position (Horizontal):</li>
                     <ul>
-                        <li>The horizontal and vertical positioning of each point on the graph allows the viewer to quickly conceptualize the sleeping efficiency and age of all participants in the study.  </li> 
-                        <li>This is a good way to visualise the information as it allows the user to see how each participant compares to other participants in the sample </li>
+                        <li>The horizontal position of the line allows the user to see the differences between a highly populated and a lower populated country</li> 
+                        <li>This is a good mapping choice because the viewer can quickly tell the the difference between the left and right side of the bar and what it represents.</li>
                     </ul>
 
-                    <!--Lists the column information-->
-                    <li>Color - Hue:</li>
+                    <!--Lists the color information in bullet format-->
+                    <li>Color - Luminance:</li>
                     <ul>
-                        <li>The smoking vs. non smoking attribute is represented through color. Orange represents non-smokers and blue represents smokers in the dataset. </li>
-                        <li> I think this is a good representation of this attribute, as viewers are easily able to distinguish whether the participant smokes, or does not.</li>
+                        <li>To represent the population of each country, color luminance was used. The darker the country is colored, the higher the population. The lighter the country is colored, the lower the population.</li>
+                        <li>I think this is good mapping because the viewer can easily understand that darker values mean more, so the more intense the color, the higher the population. Grey values also mean no data was available which is pretty easy for the user to understand.</li>
                     </ul>
+
+                    <!--Lists the shape information in bullet format-->
+                    <li>Shape:</li>
+                    <ul>
+                        <li>This was used to represent the different countries on the map.</li>
+                        <li>I think this is good mapping because the viewer has knowledge of the world map so they can easily tell the difference between the countries.</li>
+                    </ul>
+
                 </ul>
 
-                <h3>Color Map</h3>
+            <!--Under this heading, all of the colormaps are listed and described for the 3rd image-->
+            <h3>Color Map</h3>
                 <ul>
-                    <!--Lists the row information-->
-                    <li>Categorical:</li> 
+                    <!--Lists the colormap information in bullet format-->
+                    <li>Sequential:</li> 
                     <ul>
-                        <li>We chose two different colors to represent the categorical attribute of smokers and non smokers.
+                        <li>The light green to dark green scale represents the population number (lower to higher).
                         </li>
-                        <li>This is a good choice for a color map as a different color represents a different category, which is the purpose of this type of color map</li>
+                        <li>The sequential color map used by this visualization is a good choice as it uses one color (green) to indicate the extremes of the population. A user can easily tell the countries with the lighter color indicates a lower population while the darker ones mean a higher population. </li>
                     </ul>
                 </ul>
         </div>
@@ -169,18 +208,10 @@
         <h2 class="info"> Acknowledgements</h2>
             <ul>
                 <!--All the resources we used in order to complete out assignment-->
-                <li>blank</li>
-                <li>blank</li>
+                <li>https://www.kaggle.com/datasets/muhammedtausif/world-population-by-countries</li>
+                <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
             </ul>
     </div>
-
-
-            
-
-
-
-<body>
-
 
 </body>
 

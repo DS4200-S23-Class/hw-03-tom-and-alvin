@@ -1,11 +1,18 @@
+/*Centers the main header for the webpage*/
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
+/*Centers the secondary header (Acknowledgements) for the webpage*/
 h2 {
   text-align: center;
 }
 
+/*
+This class allows an image and its corresponding text/descriptions to be side by side 
+instead of on top of each other. Descriptions are also aligned to the top of the image
+and given a left margin.
+*/
 .container {
   display: flex;
   align-items: left;
@@ -13,13 +20,21 @@ h2 {
   padding-left: 50px;
 }
 
+/*
+The images are allowed to take up 90% of width. Reduced from 100% so our image could
+fit more closely to size of image 1 and 2. This did not affect sizes of the 1st two images.
+*/
 img {
-  max-width: 100%
+  max-width: 90%
 }
 
+/*
+This allows for some space between the image and its corresponding text so it does not
+appear cluttered.
+*/
 .image {
-	justify-content: center;
-  	flex-basis: 48%
+  justify-content: center;
+    flex-basis: 48%
 }
 
 
